@@ -19,7 +19,7 @@ trigger:
 
 variables:
 - template: lacemlops-variables-template.yml
-- group: lace-var-group-01
+- group: mani-var-group-01
 
 pool:
   vmImage: ubuntu-latest
