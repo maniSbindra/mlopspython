@@ -10,8 +10,7 @@ stages:
   jobs:
   - job: "Provision_Dev"
     displayName: "Provision Dev resources"
-    pool:
-      vmImage: 'ubuntu-latest'
+    pool: mani-test
     timeoutInMinutes: 0
     steps:
     - task: AzureResourceGroupDeployment@2
