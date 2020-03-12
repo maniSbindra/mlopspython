@@ -2,7 +2,7 @@ pr: none
 trigger: none
 
 variables:
-- group: lace-var-group-01
+- group: mani-var-group-01
 
 stages:
 - stage: 'Dev'
